@@ -196,7 +196,7 @@ class Rules:
 
     @staticmethod
     def player_lose(chips: Tokens):
-        print('A jatekos eluszott')
+        print('A jatekos eluszott teljesen. Jatek vege')
         chips.lose_bet()
 
     @staticmethod
